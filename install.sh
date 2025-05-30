@@ -25,7 +25,7 @@ fi
 
 # Install fail2ban
 echo "Installing fail2ban"
-sudo apt install fail2ban
+sudo apt -y install fail2ban
 
 # Install Postgres
 echo "Installing Postgres"
