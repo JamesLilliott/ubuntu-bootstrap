@@ -35,6 +35,7 @@ sudo systemctl status postgresql
 # Install .Net
 echo ".net runtime"
 sudo apt install -y dotnet-runtime-8.0
+sudo apt install -y aspnetcore-runtime-8.0
 
 # Install nginx
 echo "nginx"
